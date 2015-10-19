@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8' ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+      xmlns:h="http://xmlns.jcp.org/jsf/html">
+
+    <body>
+
+        <ui:composition template="./template.xhtml">
+
+            <ui:define name="top">
+                <h4 align="center">Campeonatos</h4>
+            </ui:define>
+
+            <ui:define name="left">
+                <h3>Menú</h3>
+                
+                <ul>
+                    <li>
+                        <h:outputLink value="http:/wwww.umariana.edu.co"/>
+                            <h:outputText value="Partidos"/>
+                    </li>
+                    <li>
+                        <h:outputLink value="http:/wwww.umng.edu.co"/>
+                            <h:outputText value="Árbitros"/>
+                    </li>
+                    <li>
+                        <h:outputLink value="http:/wwww.umariana.edu.co"/>
+                            <h:outputText value="Jugadores"/>
+                    </li>
+                </ul>
+                
+            </ui:define>
+
+            <ui:define name="content">
+                Si el título de este artículo te parece exagerado, te recomiendo que busques “web components” en Google y leas un par de posts al azar. Apuesto a que en varios de ellos aparecen expresiones del tipo “revolución”, “un antes y un después” o similares. Y no es para menos. Intentaré explicar esta “revolución” de forma breve… ya que si intentase explicarlo de forma exhaustiva tardarías horas en leerlo, ¡el tema da para mucho!
+            </ui:define>
+
+        </ui:composition>
+
+    </body>
+</html>
